@@ -1,13 +1,11 @@
-import 'package:awesome_card/credit_card.dart';
-import 'package:awesome_card/style/card_background.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_credit_card/credit_card_widget.dart';
 
 import '../../models/card.dart';
 import 'card_cvc_form_field.dart';
 import 'card_expiry_form_field.dart';
 import 'card_number_form_field.dart';
-import 'package:flutter_credit_card/credit_card_widget.dart';
 
 /// Basic form to add or edit a credit card, with complete validation.
 class CardForm extends StatefulWidget {
