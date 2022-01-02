@@ -21,7 +21,7 @@ class StripeCard {
   /// @return {@code true} if valid, {@code false} otherwise.
   bool isPostalCodeValid() {
     return (postalCode != null && postalCode!.isNotEmpty)
-        ? postalCode!.length < 7
+        ? postalCode!.length <= 7
         : false;
   }
 
